@@ -1,8 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { MsgBroadcastClient } from '@injectivelabs/sdk-ui-ts';
+import { WalletStrategy, Wallet } from '@injectivelabs/wallet-ts';
 
 function App() {
+  console.log('MsgBroadcastClient', MsgBroadcastClient);
+  console.log('Wallet', Wallet);
+  console.log('WalletStrategy', WalletStrategy);
   return (
     <div className="App">
       <header className="App-header">
